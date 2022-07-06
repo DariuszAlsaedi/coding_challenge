@@ -1,6 +1,6 @@
 #Creator: Dariusz Al-Saedi
 #This python 3 script will take a user input for 2 values, A & X.
-#It then display multiples of A until X, A+1 until 2X & A+2 until 3X.
+#It will then display multiples of A until X, A+1 until 2X & A+2 until 3X.
 
 valid = False     
 while not valid:                                #While loop is introduced in order to error check the user input.
@@ -13,9 +13,9 @@ while not valid:                                #While loop is introduced in ord
  
 
 for b in range (0, x):      #This defines the range that the user has input as the value X.
-    if b % a ==0:           #Any Remainder will always give 0
+    if b % a ==0:           #Any Remainder will always give 0.
         print(b)            
-a = a+1
+a = a+1                     #Simply adds 1 to the value x.
 for b in range (x, 2*x): 
     if b % a ==0:
         print(b)
